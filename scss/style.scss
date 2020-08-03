@@ -1,0 +1,108 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+// <!-- П Е Р В А Я    Ч А С Т Ь -->
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+}
+.contant {
+	flex: 1 1 auto;
+}
+.develop {
+	background-color: #e9e9e9;
+	padding: 50px 0;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.develop__row {
+	display: flex;
+	justify-content: space-between;
+}
+.develop__logo {
+
+}
+.develop__home {
+
+}
+.develop__menu {
+	margin-left: 500px;
+	display: flex;
+}
+.develop__allmenu {
+	color: #222;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	letter-spacing: 1.3px;
+}
+.develop__contant {
+
+}
+
+.develop__contact-row {
+ 	
+}
+
+.title {
+
+}
+.subtitle {
+
+}
+
+.develop__title {
+}
+.develop__text {
+}
+.develop__btn {}
+.button {}
+.btn {}
+
+
+// <!-- П О Д В А Л -->
+
+.footer {
+	background-color: #000;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.footer__black {}
+.footer__text {}
+.footer__left {}
+.inc {}
+.piroll {}
+.footer__center {}
+.email {}
+.footer__right {}
+.services {}
+.contact {}
+.Facebook {}
